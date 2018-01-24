@@ -15,6 +15,9 @@
 
 .coffee-cup {
    position: relative;
+
+   width: 400px;
+   margin: 0 auto;
 }
 
 .cup {
@@ -47,7 +50,6 @@
 
    transform: translate(-50%, -50%);
 
-   /* border: solid 6px #c8af05; */
    border-radius: 100%;
    background-image: linear-gradient(to bottom right, #131313, #402e15);
    box-shadow: inset -2px -2px 0px 2px rgba(252, 246, 188, 0.9),
@@ -59,7 +61,7 @@
    position: absolute;
    z-index: -1;
    top: 50%;
-   right: 60px;
+   right: -84px;
 
    width: 110px;
    height: 50px;
