@@ -16,7 +16,7 @@
 .coffee-cup {
    position: relative;
 
-   width: 400px;
+   width: 340px;
    margin: 0 auto;
 }
 
@@ -24,8 +24,8 @@
    position: relative;
    z-index: 1;
 
-   width: 400px;
-   height: 400px;
+   width: 340px;
+   height: 340px;
    margin: 0 auto;
 
    border: solid 2px #c9c9c9;
@@ -33,8 +33,8 @@
    background-image: radial-gradient(white 40%, #d1d1d1 50%, #e4e4e4 100%);
    box-shadow: 8px 8px 50px #c1c1c1,
    /* -4px -4px 20px #dfdfdf, */
-   inset 3px 3px 5px 3px #ececec,
-   inset -5px -5px 5px 3px #ececec,
+   inset 2px 2px 5px 3px #ececec,
+   inset -3px -3px 5px 3px #ececec,
    inset -1px -1px 1px 2px white,
    inset 1px 1px 1px 2px white;
 }
@@ -45,8 +45,8 @@
    top: 50%;
    left: 50%;
 
-   width: 285px;
-   height: 285px;
+   width: 245px;
+   height: 245px;
 
    transform: translate(-50%, -50%);
 
@@ -61,10 +61,10 @@
    position: absolute;
    z-index: -1;
    top: 50%;
-   right: -84px;
+   right: -64px;
 
-   width: 110px;
-   height: 50px;
+   width: 90px;
+   height: 48px;
 
    transform: translateY(-50%);
 
@@ -73,4 +73,13 @@
    background-image: linear-gradient(to bottom, #d4d4d4 0%, white 50%, #d4d4d4 100%);
    box-shadow: 2px 2px 8px #d4d4d4,
    -2px -2px 4px #d4d4d4;
+}
+
+@media screen and (max-width: 500px) {
+   .wrapper {
+      width: 90%;
+   }
+   .coffee-cup {
+      margin: 0;
+   }
 }
