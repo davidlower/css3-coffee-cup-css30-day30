@@ -130,6 +130,6 @@
 @media screen and (max-width: 850px) and (orientation: landscape) {
    .navigation {
       position: relative;
-      margin: 0 auto 10%;
+      margin: 0 auto 5%;
    }
 }
